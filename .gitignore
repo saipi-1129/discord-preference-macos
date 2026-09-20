@@ -1,0 +1,19 @@
+.DS_Store
+
+# Xcode user and build data
+DerivedData/
+build/
+**/xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+# Swift and local tooling outputs
+.build/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.provisionprofile
